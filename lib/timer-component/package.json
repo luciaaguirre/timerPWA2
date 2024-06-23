@@ -1,0 +1,25 @@
+{
+  "name": "timer-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "publish:npm": "npm publish --access public"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "node_modules/standard/eslintrc.json"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "lit": "^3.1.4",
+    "standard": "^17.1.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
